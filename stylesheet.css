@@ -1,0 +1,200 @@
+.nav{
+  margin-top: 0%;
+  padding-left: 36%;
+  padding-right:0%;
+  overflow: hidden;
+  font-size: 18px;
+  background-color: white; 
+}
+.logo{
+ margin-left:40%;
+}
+.nav a {
+  display: inline-block;
+  color: gray;
+  padding: 14px 16px;
+  text-decoration: none;  
+}
+.nav a:hover {
+  color:#45454d;
+}
+@media screen and (max-width: 800px){
+    .logo {
+        display: flex;
+        margin-left:20%;
+        margin-right:20%;
+    }
+    .nav {
+      margin-top: 0%;
+      padding-left: 18%;
+      padding-right:0%;
+      overflow: hidden;
+      font-size: 18px;
+      background-color: white; 
+    }
+    .nav a {
+      display: flex;
+      color: gray;
+      padding: 7px 8px;
+      text-decoration:none;  
+    }
+    .nav a:hover {
+      color:#45454d;
+    }
+}
+
+.about{
+  display:inline-block;
+}
+.image{ 
+  margin-top:100px;
+  padding-left:0px;
+  border-radius:50%;
+  margin-left:200px;
+  height:200px;
+  width:200px;
+}
+.content{
+  display:flex;
+}    
+
+.description-class{
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size:16px;
+  font-family:'Zapf-Chancery', cursive;
+  color:gray;
+}
+@media screen and (max-width: 800px) {
+    .content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+    .image {
+        width:150px;/* The width is 100%, when the viewport is 800px or smaller */
+        border-radius: 50%;
+        margin-left: 2px;
+        height:200px;
+    }
+    .description-class{
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size:12px;
+        font-family:'Zapf-Chancery',cursive;
+        color:black;
+}
+}
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 0px;
+  height:0px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px, 2px;
+  border-radius:50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: black;
+  color: white;
+   opacity:0.8;
+}
+.fa-github {
+  background: black;
+  opacity:0.8;
+  color: white;
+}
+.fa-linkedin {
+  background: black;
+   opacity:0.8;
+  color: white;
+}
+.fa-instagram {
+  background: black;
+  color: white;
+   opacity:0.8;
+}
+.footer{
+  margin-left:150px;
+  margin-top:50px;
+  margin-bottom:inherit;
+}
+@media screen and (max-width:800px){
+    .footer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
+.education{
+    display: flex;
+	margin-top:5%;
+	margin-left:30%;
+    font-size:16px;
+    font-family:'Zapf-Chancery', cursive;
+    color:gray;
+}
+table, th,td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    width:75%;
+    padding:5px;
+    font-size:15px;
+    font-family: cursive;
+}
+@media screen and (max-width: 800px){
+    .education {
+        display: flex;
+        flex-shrink: 10%;
+        font-size: 12px;
+        font-family:'Zapf-Chancery', cursive;
+        color:gray;
+    }
+    table, th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align:center;
+        width:100%;
+        padding:5px;
+        font-size:8px;
+        font-family: cursive;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+}
+.skill{
+	display:flex;
+	margin-left:20%;
+	margin-top:5%;
+    font-size:16px;
+    font-family:'Zapf-Chancery', cursive;
+    color:gray;
+}
+.skill-add{
+	margin-left:260px;
+}
+.address-info{
+	margin-left:250px;
+}
+.contact{
+	padding-top:7%%;
+}
+table, th,td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    width:75%;
+    padding:5px;
+    font-size:15px;
+    font-family: cursive;
+}
+
+
+
